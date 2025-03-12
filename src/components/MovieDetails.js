@@ -116,9 +116,6 @@ const MovieDetails = () => {
             </ul>
           </div>
           <div className="movie-buttons">
-            <button className="play-button" onClick={() => setIsPlaying(true)}>
-              Play Movie
-            </button>
             {trailerKey && !isPlaying && (
               <button className="trailer-button" onClick={() => setIsPlaying(true)}>
                 Watch Trailer

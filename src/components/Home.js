@@ -29,10 +29,13 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <video autoPlay loop muted className="background-video">
+      <video autoPlay loop muted playsInline className="background-video">
         <source src={`${process.env.PUBLIC_URL}/background.mp4`} type="video/mp4" />
+        <source src={`${process.env.PUBLIC_URL}/background.webm`} type="video/webm" />
+        <source src={`${process.env.PUBLIC_URL}/background.ogv`} type="video/ogg" />
         Your browser does not support the video tag.
       </video>
+
 
       <div className="overlay">
         <img src={logo} alt="Logo" className="logo" />

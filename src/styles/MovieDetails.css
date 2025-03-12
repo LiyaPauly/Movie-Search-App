@@ -100,7 +100,7 @@ html, body {
     gap: 10px;
 }
 
-.play-button, .trailer-button {
+.trailer-button {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: rgb(68, 3, 3);
@@ -111,7 +111,7 @@ html, body {
     font-size: 1rem;
 }
 
-.trailer-button:hover, .play-button:hover {
+.trailer-button:hover:hover {
     background-color: #f62222;
 }
 
