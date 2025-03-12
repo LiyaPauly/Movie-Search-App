@@ -34,6 +34,7 @@ const Home = () => {
         Your browser does not support the video tag.
       </video>
 
+
       <div className="overlay">
         <img src={logo} alt="Logo" className="logo" />
         <h1 className="title">Welcome to Filmio Search</h1>

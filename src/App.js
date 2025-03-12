@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import MovieDetails from './components/MovieDetails'; 
 import "slick-carousel/slick/slick.css";
@@ -8,8 +8,8 @@ function App() {
   return (
     <BrowserRouter basename="/movie-search-app">
       <Routes>
-        <Route exact path="/movie-search-app" element={<Home />} />
-        <Route path="/movie/:id" element={<MovieDetails />} />
+        <Route path="/" element={<Home />} />  {/* Home page route */}
+        <Route path="/movie/:id" element={<MovieDetails />} /> {/* Movie details page */}
       </Routes>
     </BrowserRouter>
   );
