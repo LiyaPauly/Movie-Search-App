@@ -2,7 +2,7 @@
   "name": "movie-search-app",
   "homepage": "https://LiyaPauly.github.io/movie-search-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
